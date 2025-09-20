@@ -1,0 +1,87 @@
+{
+  "id": "godbound",
+  "name": "Godbound",
+  "characterSchema": {
+    "name": {
+      "type": "string",
+      "default": ""
+    },
+    "level": {
+      "type": "number",
+      "default": 1
+    },
+    "attributes": {
+      "type": "object",
+      "fields": [
+        { "name": "Strength", "score": 10, "modifier": 0, "check": 0 },
+        { "name": "Dexterity", "score": 10, "modifier": 0, "check": 0 },
+        { "name": "Constitution", "score": 10, "modifier": 0, "check": 0 },
+        { "name": "Wisdom", "score": 10, "modifier": 0, "check": 0 },
+        { "name": "Intelligence", "score": 10, "modifier": 0, "check": 0 },
+        { "name": "Charisma", "score": 10, "modifier": 0, "check": 0 }
+      ],
+      "default": {
+        "Strength": { "score": 10, "modifier": 0, "check": 0 },
+        "Dexterity": { "score": 10, "modifier": 0, "check": 0 },
+        "Constitution": { "score": 10, "modifier": 0, "check": 0 },
+        "Wisdom": { "score": 10, "modifier": 0, "check": 0 },
+        "Intelligence": { "score": 10, "modifier": 0, "check": 0 },
+        "Charisma": { "score": 10, "modifier": 0, "check": 0 }
+      }
+    },
+    "savingThrows": {
+      "type": "object",
+      "fields": ["Hardiness", "Evasion", "Spirit"],
+      "default": { "Hardiness": 0, "Evasion": 0, "Spirit": 0 }
+    },
+    "hitPoints": {
+      "type": "object",
+      "fields": ["Max HP", "Current HP"],
+      "default": { "Max HP": 0, "Current HP": 0 }
+    },
+    "combat": {
+      "type": "object",
+      "fields": ["Armor Class", "Attack Bonus", "Fray Die"],
+      "default": { "Armor Class": 0, "Attack Bonus": 0, "Fray Die": "1d8" }
+    },
+    "resources": {
+      "type": "object",
+      "fields": ["Effort", "Effort Committed", "Influence", "Dominion", "Wealth per Month"],
+      "default": {
+        "Effort": 0,
+        "Effort Committed": 0,
+        "Influence": 0,
+        "Dominion": 0,
+        "Wealth per Month": 0
+      }
+    },
+    "facts": {
+      "type": "list",
+      "default": []
+    },
+    "career": {
+      "type": "object",
+      "fields": ["Past Career", "Origin", "Relationships"],
+      "default": { "Past Career": "", "Origin": "", "Relationships": "" }
+    },
+    "words": {
+      "type": "list",
+      "default": []
+    },
+    "divineGifts": {
+      "type": "list",
+      "default": []
+    },
+    "equipment": {
+      "type": "list",
+      "default": []
+    },
+    "notes": {
+      "type": "list",
+      "default": []
+    }
+  },
+  "campaignSchema": {
+    "sections": ["Notes", "NPCs", "Quests", "Artifacts"]
+  }
+}

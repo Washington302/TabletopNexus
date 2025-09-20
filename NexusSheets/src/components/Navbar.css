@@ -1,0 +1,96 @@
+.navbar-account button {
+  background: var(--color-bg-mid);
+  border: 1px solid var(--color-primary);
+  color: var(--color-primary);
+  font-weight: 600;
+  cursor: pointer;
+  min-width: 0;
+  border-radius: 6px;
+  padding: 0.4em 1.2em;
+  transition: background 0.2s, color 0.2s, border 0.2s;
+  margin-right: 0.8em;
+}
+.navbar-account button:hover, .navbar-account button:focus {
+  background: var(--color-primary);
+  color: var(--color-bg-mid);
+  border: 1px solid var(--color-primary);
+}
+.navbar {
+  width: 100vw;
+  left: 0;
+  top: 0;
+  position: fixed;
+  background: var(--color-bg-mid);
+  color: var(--color-text-main);
+  padding: 0.75rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 2px 8px 0 rgba(0,0,0,0.10);
+  z-index: 1000;
+  min-width: 0;
+  overflow-x: auto;
+  overflow-y: hidden;
+  flex-wrap: wrap;
+}
+
+.navbar-logo {
+  font-weight: 700;
+  font-size: 1.3rem;
+  letter-spacing: 0.04em;
+  white-space: nowrap;
+  color: var(--color-primary);
+}
+
+.navbar-toggle {
+  display: none;
+  background: none;
+  border: none;
+  color: var(--color-text-link);
+  font-size: 2rem;
+  margin-left: 1rem;
+  cursor: pointer;
+}
+
+.navbar-links {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  min-width: 0;
+  flex: 1;
+  justify-content: center;
+}
+
+.navbar-links a {
+  color: var(--color-text-link);
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.navbar-account {
+  display: flex;
+  align-items: center;
+  min-width: 0;
+  padding-right: 2.5rem;
+}
+
+@media (max-width: 635px) {
+  .navbar-links {
+    display: none;
+    position: absolute;
+    top: 56px;
+    left: 0;
+    width: 100vw;
+    background: var(--color-bg-mid);
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem 0;
+    z-index: 1100;
+  }
+  .navbar-links.open {
+    display: flex;
+  }
+  .navbar-toggle {
+    display: block;
+  }
+}

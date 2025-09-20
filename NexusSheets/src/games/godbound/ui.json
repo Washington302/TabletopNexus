@@ -1,0 +1,15 @@
+{
+  "tabs": [
+    { "id": "attributes", "label": "Attributes", "fields": "attributes" },
+    { "id": "saves", "label": "Saving Throws", "fields": "savingThrows" },
+    { "id": "hp", "label": "Hit Points", "fields": "hitPoints" },
+    { "id": "combat", "label": "Combat", "fields": "combat" },
+    { "id": "resources", "label": "Resources", "fields": "resources" },
+    { "id": "facts", "label": "Facts", "fields": "facts" },
+    { "id": "career", "label": "Background", "fields": "career" },
+    { "id": "words", "label": "Words", "fields": "words" },
+    { "id": "gifts", "label": "Divine Gifts", "fields": "divineGifts" },
+    { "id": "equipment", "label": "Equipment", "fields": "equipment" },
+    { "id": "notes", "label": "Notes", "fields": "notes" }
+  ]
+}

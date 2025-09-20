@@ -1,0 +1,36 @@
+:root {
+  /* Core Backgrounds */
+  --color-bg-dark: #0B0F2A;      /* Deep indigo space */
+  --color-bg-mid: #1A1F3D;       /* Cosmic twilight */
+  --color-bg-light: #2C3159;     /* Muted nebula blue */
+
+  /* Primary Brand Colors */
+  --color-primary: #C6A76D;      /* Soft gold (highlight/accent) */
+  --color-primary-light: #E0C891;/* Gentle glow gold */
+  --color-primary-dark: #8C6E3E; /* Antique brass */
+
+  /* Secondary / Supporting */
+  --color-secondary: #8AB9E6;    /* Starlight silver-blue */
+  --color-secondary-light: #B9D5F7; /* Pale star shimmer */
+  --color-secondary-dark: #56749C;  /* Faded celestial steel */
+
+  /* Accent Pops */
+  --color-accent-magenta: #A44FB7; /* Arcane magenta */
+  --color-accent-cyan: #45D0E3;    /* Energy cyan */
+  --color-accent-red: #D94B58;     /* Warning red */
+
+  /* Typography */
+  --color-text-main: #EAEAF2;    /* Almost-white for readability */
+  --color-text-muted: #B0B4C8;   /* Soft silver for secondary text */
+  --color-text-gold: #E7C787;    /* Special headers or highlights */
+  --color-text-link: #8AB9E6;    /* Starlight links */
+
+  /* UI Surfaces */
+  --color-surface-dark: #14182E; /* Panels, cards */
+  --color-surface-mid: #1E2545;  /* Hover states */
+  --color-surface-light: #313862;/* Elevated surfaces */
+
+  /* Borders / Dividers */
+  --color-border-glow: rgba(198, 167, 109, 0.6); /* Golden glow */
+  --color-border-faint: rgba(255, 255, 255, 0.1); /* Subtle cosmic lines */
+}
